@@ -56,9 +56,11 @@ function check() {
 
 addButton.addEventListener('click', check);
 
+/* ДОБАВЛЯЕМ СМЕНУ ТЕМЫ */
+
 let change = document.querySelector('.Background');
 
-function colorSet () {
+function colorSet() {
     let x = change.value;
     if (+x === 2) {
         document.body.style.backgroundColor = "#111111";
@@ -67,7 +69,7 @@ function colorSet () {
     }
 }
 
-change.addEventListener("change", colorSet);
+change.addEventListener('change', colorSet);
 
 
 
